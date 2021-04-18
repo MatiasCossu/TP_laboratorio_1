@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Funciones.h"
+
 int main()
 {
     int opcion;
@@ -23,8 +24,8 @@ int main()
 
     operadorA=0;
     operadorB=0;
-    printf("BIENVENIDO A CALCULADORA\n");
-
+    printf("BIENVENIDOS A CALCULADORA");
+    setbuf(stdout, NULL);
     do
     {
         printf("\nEl operador A vale: %.2f \nEl operador B vale: %.2f \n",operadorA,operadorB);
